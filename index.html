@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introduction to Digital Technologies II - Lecture 1 - Part 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Introduction to Digital Technologies II - Lecture 1</h1>
+    </header>
+
+<!--
+#####
+Slide - Computer Networks and the Internet
+#####
+-->
+
+    <section class="slide clear" id="cover">
+        <h2>Computer Networks and the Internet</h2>
+        <p>Introduction to Digital Technologies II - Lecture 1</a></p>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-1.png" alt="Networks">
+            <figcaption class="copyright right white">
+                <a href="https://unsplash.com/s/photos/internet-network">Unsplash+</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Computer Networks and the Internet
+#####
+-->
+    <section class="slide">
+        <iframe class="cover" width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/T3h1fiOC4AM?si=HwrGHPKRF-6gvzhS&amp;start=41&amp;end=279&amp;rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+<!--
+#####
+Slide - The public Internet is a specific computer network.
+#####
+-->
+    <section class="slide">
+        <h2>Computer Networks and the Internet</h2>
+        <ul>
+            <li>The public Internet is a specific computer network.</li>
+        </ul>
+    </section>
+
+<!--
+#####
+Slide - ARPANET was the forerunner of the Internet
+#####
+-->
+    <section class="slide">
+        <h2 style="color: white">ARPANET was the forerunner of the Internet</h2>
+        <div id="tutorial3"><p>See <strong>Tutorial 2</strong><br/>The History of the Internet</p></div>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-2.jpg" alt="The ARPANET">
+            <figcaption class="copyright right" style="color: white">
+                <i>Arpanet Geographical Map in 1973 (1988)</i>by Eric Fischer is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a>
+            </figcaption>
+        </figure>
+        <style type="text/css">
+            #tutorial3 {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 400px; left: 575px;
+                width: 400px;
+                height: 100px;
+                background: white;
+                opacity: 0.7;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - But the term 'computer network' is beginning to sounds a bit dated.
+#####
+-->
+    <section class="slide">
+        <h2>Computer Networks and the Internet</h2>
+        <ul>
+            <li>The public Internet is a specific computer network.</li>
+            <li>But the term <i>computer network</i> is beginning to sound a bit dated.</li>
+        </ul>
+        <figure>
+            <img class="place bottom" src="pictures/idt2-l1-3.png" alt="Internet of Things" width="90%">
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - The Internet of Things
+#####
+-->
+    <section class="slide">
+        <h2>The Internet of Things</h2>
+        <div id="tutorial6"><p>See <strong>Tutorial 6</strong><br/>Internet Performance and Services</p></div>
+
+        <figure>
+            <img class="cover height place right" src="pictures/idt2-l1-4.png" alt="The ARPANET">
+            <figcaption class="copyright right" style="color: white">
+                <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">Unsplash+</a>
+            </figcaption>
+        </figure>
+        <style type="text/css">
+            #tutorial6 {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 100px; left: 575px;
+                width: 400px;
+                height: 100px;
+                background: white;
+                opacity: 0.7;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - What is the Internet
+#####
+-->
+    <section class="slide">
+        <h2>What is the Internet?</h2>
+        <ul>
+            <li><strong>Hardware</strong> and <strong>software</strong> components.</li>
+            <li class="next">An infrastructure that provides <strong>services</strong> to applications ...</li>
+            <li class="next">... using a <strong>set of rules</strong> that the sending program must follow so that the Internet can deliver the data to the destination program.</li>
+        </ul>
+    </section>
+
+<!--
+#####
+Slide - Analogy 
+#####
+-->
+    <section class="slide">
+        <h2 style="color: white;">Think of a postal service</h2>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-22.jpg" alt="Postal boxes" width="100%">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://unsplash.com/@rolls0ut?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jac Alexandru</a> on <a href="https://unsplash.com/photos/brown-and-white-wall-mounted-cabinet-L0Wdk52FAmM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>            
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Nuts and Bolts of the Internet
+#####
+-->
+    <section class="slide" id="cover">
+        <h2>Nuts and Bolts of Computer Networks</h2>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-23.jpg" alt="Postal boxes" width="100%">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://unsplash.com/@sigmund?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sigmund</a> on <a href="https://unsplash.com/photos/black-and-silver-computer-ram-stick-EJe6LqEjHpA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>            
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Internet nodes
+#####
+-->
+    <section class="slide">
+        <h2>What is the Internet?</h2>
+        <ul>
+            <li>The Internet is a set of <strong>nodes</strong> connected by <strong>links</strong>.</li>
+        </ul>
+        <figure>
+            <img class="place bottom" src="pictures/idt2-l1-5.png" alt="The Internet is a set of nodes." height="50%" style="padding: 10px 10px">
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Internet nodes
+#####
+-->
+    <section class="slide">
+        <h2>What is the Internet?</h2>
+        <ul>
+            <li>The Internet is a set of <strong>nodes</strong> connected by <strong>links</strong>.</li>
+            <li><em>Or more precisely</em>: The Internet consists of <strong>hosts</strong> (which host or run applications) or <strong>end systems</strong> connected by a network of <strong>communication links</strong> and  <strong>switches</strong>.</li>
+        </ul>
+        <figure>
+            <img class="place bottom" src="pictures/idt2-l1-6.png" alt="The Internet is a set of nodes." height="50%" style="padding: 10px 10px">
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Internet nodes
+#####
+-->
+    <section class="slide">
+        <h2>The Internet: a network of hosts, links and switches.</h2>
+        <figure>
+            <img class="place bottom" src="pictures/idt2-l1-7.png" alt="The Internet is a set of nodes." height="80%">
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Switches
+#####
+-->
+    <section class="slide">
+        <h2 style="color: white;">Switches and Routers</h2>
+        <figure>
+            <img class="cover height" src="pictures/idt2-l1-25.jpg" alt="Internet Switch" height="50%" style="padding: 10px 10px">
+            <div id="switch">
+                <ul>
+                    <li>A <strong>switch</strong> facilitates communication within a network, forwarding data packets to nearby hosts. Switches keep track of all <strong>MAC</strong> addresses (hardware identification number) on a network.</li>
+                    <li>A <strong>router</strong> forwards data packets between computer networks by examining the destination <strong>IP address.</strong><strong></strong></li>
+                </ul>
+            </div>
+        </figure>
+        <figcaption class="copyright right" style="color: white">
+            hoto by <a href="https://unsplash.com/@jonathanlei0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan</a> on <a href="https://unsplash.com/photos/white-and-gray-cable-SwVkmowt7qA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </figcaption>
+        <style type="text/css">
+            #switch {
+                border-radius: 25px;
+                padding-left: 50px;
+                position: absolute;
+                top: 300px; left: 200px;
+                width: 600px;
+                height: 250px;
+                background: white;
+                opacity: 0.7;
+                line-height: 1.5;
+            }
+        </style>
+    </section>
+
+
+<!--
+#####
+Slide - Network application architecture
+#####
+-->
+    <section class="slide">
+        <h2>Network application architecture</h2>
+        <ul>
+            <li><mark>client | server</mark></li>
+        </ul>
+        <figure>
+            <img class="place bottom" src="pictures/idt2-l1-8.png" alt="The Internet is a set of nodes." height="80%">
+        </figure>
+    </section>
+
+
+<!--
+#####
+Slide - Network application architecture
+#####
+-->
+    <section class="slide">
+        <h2>Network application architecture</h2>
+        <ul>
+            <li>client | server</li>
+            <li><mark>peer-to-peer</mark></li>
+        </ul>
+        <figure>
+            <img class="cover place right" src="pictures/idt2-l1-9.png" alt="The Internet is a set of nodes.">
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Bitcoin is a peer-to-peer network application
+#####
+-->
+    <section class="slide">
+        <h2 style="color: white;">Bitcoin is a peer-to-peer network application</h2>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-10.jpg" alt="Bitcoin is a peer-to-peer network application.">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://unsplash.com/@jievani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jievani Weerasinghe</a> on <a href="https://unsplash.com/photos/silver-and-black-round-emblem-NHRM1u4GD_A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+          
+    </section>
+
+<!--
+#####
+Slide - Network area
+#####
+-->
+    <section class="slide">
+        <h2>Network area</h2>
+        <ul>
+            <li>Local Area (LAN)</li>
+            <li>Wide Area (WAN)</mark></li>
+        </ul>
+        <figure>
+            <img class="cover place right" src="pictures/idt2-l1-12.png" alt="Local Area Network (LAN) and Wide Area Network (WAN)">
+            <div id="umnet">UMNet is a<br/> <strong>Local Area Network (LAN)</strong></div>
+            <div id="regionalisp">Regional<br/> <strong>Internet Service Provider (ISP)</strong></div>
+            <div id="globalisp">National or Global<br/> <strong>ISP (WAN)</strong></div>
+        </figure>
+        <style type="text/css">
+            #umnet {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 450px; left: 500px;
+                width: 200px;
+                height: 50px;
+                background: blanchedalmond;
+                opacity: 0.8;
+                font-size: 0.7em;
+                line-height: 1.2;
+            }
+        </style>
+        <style type="text/css">
+            #regionalisp {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 250px; left: 700px;
+                width: 250px;
+                height: 50px;
+                background: blanchedalmond;
+                opacity: 0.8;
+                font-size: 0.7em;
+                line-height: 1.2;
+            }
+        </style>
+        <style type="text/css">
+            #globalisp {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 100px; left: 600px;
+                width: 150px;
+                height: 50px;
+                background: blanchedalmond;
+                opacity: 0.8;
+                font-size: 0.7em;
+                line-height: 1.2;
+            }
+        </style>
+    </section>
+
+
+<!--
+#####
+Slide - Network area
+#####
+-->
+    <section class="slide">
+        <h2>Network Topologies</h2>
+        <ul>
+            <li><mark>Bus</mark></li>
+            <li>Ring</li>
+            <li>Star</li>
+            <li>Mesh</li>
+        </ul>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-14.png" alt="Bus Tolopgy" height="60%" style="padding: 10px 10px">
+        </figure>
+    </section>
+
+
+<!--
+#####
+Slide - Network area
+#####
+-->
+    <section class="slide">
+        <h2>Network Topologies</h2>
+        <ul>
+            <li>Bus</li>
+            <li><mark>Ring</mark></li>
+            <li>Star</li>
+            <li>Mesh</li>
+        </ul>
+        <figure>
+            <img class="cover place bottom right" src="pictures/idt2-l1-15.png" alt="Bus Tolopgy" height="80%" style="padding: 10px 10px">
+        </figure>
+    </section>
+
+
+<!--
+#####
+Slide - Network area
+#####
+-->
+    <section class="slide">
+        <h2>Network Topologies</h2>
+        <ul>
+            <li>Bus</li>          
+            <li>Ring</li>
+            <li><mark>Star</mark></li>
+            <li>Mesh</li>
+        </ul>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-13.png" alt="Bus Tolopgy" height="90%" style="padding: 10px 10px">
+            <div id="star">A star topology requires<br/> a <strong>hub</strong> or <strong>switch</strong>.</div>
+        </figure>
+        <style type="text/css">
+            #star {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 400px; left: 650px;
+                width: 300px;
+                height: 80px;
+                background: blanchedalmond;
+                line-height: 1.2;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Network area
+#####
+-->
+    <section class="slide">
+        <h2>Network Topologies</h2>
+        <ul>
+            <li>Bus</li>
+            <li>Ring</li>
+            <li>Star</li>
+            <li><mark>Mesh</mark></li>
+        </ul>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-16.png" alt="Bus Tolopgy" height="60%" style="padding: 10px 10px">
+        </figure>
+    </section>
+
+
+<!--
+#####
+Slide - A Network of Networks
+#####
+-->
+    <section class="slide">
+        <h2>The Internet is a network of networks</h2>
+        <ul>
+            <li>Sending systems <strong>segment</strong> the data, add a <strong>header</strong> and send the <strong>packets</strong> to the end system
+        passing through <strong>hubs, switches</strong> and <strong>routers</strong>.</li>
+            <li>The sequence of communication links and packets traversed is a <strong>route</strong> or <strong>path</strong>.</li>
+            <li>End systems access the internet through <strong>ISP's</strong>.</li>
+            <li>The internet is a network of networks connected by <strong>routers</strong>.</li>
+        </ul>
+    </section>
+
+
+<!--
+#####
+Slide - Analogy: a transportation network
+#####
+-->
+    <section class="slide" id="cover">
+        <h2 style="color: white;">How does data flow over the internet?</h2>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-17.jpg" alt="A Transportation Network">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://www.pexels.com/@vividcafe/">Aleksejs Bergmanis</a> on <a href="https://www.pexels.com/photo/aerial-photography-of-concrete-bridge-681347/">pexels.com</a>
+            </figcaption>
+        </figure>
+          
+    </section>
+
+<!--
+#####
+Slide - Analogy: a transportation network
+#####
+-->
+    <section class="slide">
+        <h2 style="color: white;">Think of a transportation network ...<br/>where traffic congestions occur.</h2>
+        <figure>
+            <img class="cover width" src="pictures/idt2-l1-18.jpg" alt="A Transportation Network">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://www.pexels.com/@vividcafe/">Mikechie Esparagoza</a> on <a href="https://www.pexels.com/photo/photo-of-vehicles-on-road-during-evening-1600757/">pexels.com</a>
+            </figcaption>
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Queuing Delays and Packet Loss
+#####
+-->
+    <section class="slide">
+        <h2>Queuing Delays and Packet Loss</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-19.png" alt="Queuing Delays and Packet Loss" height="80%" style="padding: 10px 10px">
+        </figure>
+        <div id="packetloss">Queue of packets waiting in buffer to be forwarded.</div>
+        <style type="text/css">
+            #packetloss {
+                border-radius: 25px;
+                padding: 10px;
+                position: absolute;
+                top: 420px; left: 300px;
+                width: 200px;
+                height: 80px;
+                background: #efefef;
+                opacity: 0.7;
+                font-size: 0.8em;
+                line-height: 1.5;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Queuing Delays and Packet Loss
+#####
+-->
+    <section class="slide">
+        <h2><a href="https://media.pearsoncmg.com/ph/esm/ecs_kurose_compnetwork_8/cw/content/interactiveanimations/queuing-loss-applet/index.html" target="_blank">Queuing Delays and Packet Loss</a></h2>
+        <div id="applet-div"></div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('#applet-div').load("https://media.pearsoncmg.com/ph/esm/ecs_kurose_compnetwork_8/cw/content/interactiveanimations/queuing-loss-applet/index.html .container");
+    </script>
+    </section
+
+<!--
+#####
+Slide - DDoS attack is a common hacking technique
+#####
+-->
+    <section class="slide">
+        <h2>DDoS attack is a common hacking technique</h2>
+        <figure>
+            <a href="https://www.bbc.com/news/av/technology-35731734" target="_blank">
+                <img class="cover place bottom" src="pictures/idt2-l1-21.jpg" alt="Bitcoin is a peer-to-peer network application." height="80%">
+            </a>
+            <figcaption class="copyright right" style="color: white">
+                <i>DDoS</i> by EpicTop10.com is licensed under  <a href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a>
+            </figcaption>
+        </figure>        
+    </section>
+
+<!--
+#####
+Slide - The Internet provide services to applications 
+#####
+-->
+    <section class="slide">
+        <h2>How does data flow over the internet?</h2>
+        <p>The internet is an infrastructure that provides <strong>services</strong> to applications.</p>
+    </section>
+
+<!--
+#####
+Slide - Meet and Greet 
+#####
+-->
+    <section class="slide">
+        <h2 style="color: white;">Protocols are a set of <strong>messages</strong> we send and <strong>actions</strong> we take.</h2>
+        <figure>
+            <img class="cover height width" src="pictures/idt2-l1-26.jpg" alt="Bitcoin is a peer-to-peer network application." height="80%">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://www.pexels.com/photo/close-up-of-human-hand-327540/">Pixabay</a>
+            </figcaption>
+        </figure>        
+    </section>
+
+
+<!--
+#####
+Slide - Protocols 
+#####
+-->
+    <section class="slide">
+        <h2>Protocols</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-24.png" alt="Protocols - a human analogy." height="70%" style="padding: 10px;">
+            <figcaption class="copyright right">
+                Based on an idea from Kurose (2020)
+            </figcaption>
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - Analogy: Airport Services
+#####
+-->
+    <section class="slide">
+        <h2 style="margin-bottom: -10px;">Think of Air Travel</h2>
+        <p>end-to-end transfer of person and baggage</p>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-27.png" alt="Protocols - Airport analogy." height="90%" style="padding-bottom: 10px;">
+            <figcaption class="copyright right">
+                Based on an idea from Kurose (2020)
+            </figcaption>
+        </figure>
+    </section>
+
+
+
+<!--
+#####
+Slide - Application Layer
+#####
+-->
+    <section class="slide">
+        <h2>Layered Architecture</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-28.png" alt="Layered Model" height="75%" style="padding: 10px 10px">
+            <div id="alayer">
+                <p style="color: darkblue;"><strong>Application Layer</strong>
+                <ul>
+                    <li>Supports <strong>message</strong> transfer between <i>applications</i>.</li>
+                    <li>Controlled by <strong>protocols</strong>: HTTP, SMTP, FTP ...</li>
+                </ul>
+                </p>    
+            </div>
+        </figure>
+        <style type="text/css">
+            #alayer {
+                border-radius: 25px;
+                padding-left: 50px;
+                position: absolute;
+                top: 350px; left: 250px;
+                width: 500px;
+                height: 200px;
+                background: blanchedalmond;
+                opacity: 0.7;
+                line-height: 1.5;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Transport Layer
+#####
+-->
+    <section class="slide">
+        <h2>Layered Architecture</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-29.png" alt="Layered Model" height="75%" style="padding: 10px 10px">
+            <div id="tlayer">
+                <p style="color: darkblue;"><strong>Transport Layer</strong>
+                <ul>
+                    <li>Supports <strong>process-to-process</strong> (reliable) data transfer.</li>
+                    <li>Controlled by <strong>protocols</strong>: TCP, UDP, ...</li>
+                    <li>A message with a <i>transport layer</i> header <em>(protocol, port number)</em> is a <strong>segment</strong>.</li>
+                </ul>
+                </p>    
+            </div>
+        </figure>
+        <style type="text/css">
+            #tlayer {
+                border-radius: 25px;
+                padding-left: 50px;
+                position: absolute;
+                top: 300px; left: 250px;
+                width: 500px;
+                height: 250px;
+                background: blanchedalmond;
+                opacity: 0.7;
+                line-height: 1.5;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Network Layer
+#####
+-->
+    <section class="slide">
+        <h2>Transport Layer</h2>
+        <figure>
+            <img class="cover" src="pictures/idt2-l1-33b.png" alt="Transport Layer" height="60%">
+        </figure>        
+    </section>
+
+
+<!--
+#####
+Slide - Network Layer
+#####
+-->
+    <section class="slide">
+        <h2>Layered Architecture</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-30.png" alt="Layered Model" height="75%" style="padding: 10px 10px">
+            <div id="nlayer">
+                <p style="color: darkblue;"><strong>Network Layer</strong>
+                <ul>
+                    <li>Supports data routing (best effort) from <strong>source to destination.</strong></li>
+                    <li>Controlled by <strong>protocols</strong>: IP, ...</li>
+                    <li>A segment with a <i>network layer</i> header <em>(IP-addess)</em> is a <strong>datagram</strong> or <strong>packet.</strong></li>
+                    <li><i>Hardware</i>: Router</li>.
+                </ul>
+                </p>    
+            </div>
+        </figure>
+        <style type="text/css">
+            #nlayer {
+                border-radius: 25px;
+                padding-left: 50px;
+                position: absolute;
+                top: 250px; left: 250px;
+                width: 500px;
+                height: 300px;
+                background: blanchedalmond;
+                opacity: 0.7;
+                line-height: 1.5;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Data Link Layer
+#####
+-->
+    <section class="slide">
+        <h2>Layered Architecture</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-31.png" alt="Layered Model" height="75%" style="padding: 10px 10px">
+            <div id="dlayer">
+                <p style="color: darkblue;"><strong>Data Link</strong>
+                <ul>
+                    <li>Supports data transfer between <strong>neighboring network elements</strong>.</li>
+                    <li>Controlled by <strong>protocols</strong>: Ethernet, 802.11 (Wifi), ...</li>
+                    <li>A datagram with a <i>link layer</i> header <em>(MAC-address)</em>  is a <strong>frame</strong>.</li>
+                    <li><i>Hardware</i>: Network Interface Card, Switch</li>.
+                </ul>
+                </p>    
+            </div>
+        </figure>
+        <style type="text/css">
+            #dlayer {
+                border-radius: 25px;
+                padding-left: 50px;
+                position: absolute;
+                top: 150px; left: 250px;
+                width: 500px;
+                height: 350px;
+                background: blanchedalmond;
+                opacity: 0.7;
+                line-height: 1.5;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Physical Layer
+#####
+-->
+    <section class="slide">
+        <h2>Layered Architecture</h2>
+        <figure>
+            <img class="cover place bottom" src="pictures/idt2-l1-32.png" alt="Layered Model" height="75%" style="padding: 10px 10px">
+            <div id="dlayer">
+                <p style="color: darkblue;"><strong>Physical Layer</strong>
+                <ul>
+                    <li>Transporting <strong>bits (1's and 0's)</strong> from one node to the next.</li>
+                    <li>Controlled by <strong>protocols</strong>: Bluetooth, ISDN, USB, ...</li>
+                    <li><i>Hardware</i>: Twisted Pair, Coaxial, Fiber, ...</li>
+                </ul>
+                </p>    
+            </div>
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - OSI Model
+#####
+-->
+    <section class="slide">
+        <h2>The OSI Model</h2>
+        <div style="width: 50%;">
+        <p style="line-height: 1.5;">Two additional layers in the OSI reference model:
+            <ul>
+                <li>The role of the <strong>Presentation Layer</strong> include  services for data compression and data encryption.</li>
+                <li>The <strong>Session Layer</strong>  provide services to establish, maintain, and ends a session.</li>
+            </ul>
+        </p>
+        <figure>
+            <img class="cover place right" src="pictures/idt2-l1-36.png" alt="Protocols - Airport analogy." height="90%" style="padding-right: 50px;">
+            <figcaption class="copyright right">
+                Image from Vasudevan (2015) p. 1.13</a>
+            </figcaption>
+        </figure>  
+    </section>
+
+
+<!--
+#####
+Slide - Routing
+#####
+-->
+    <section class="slide">
+        <h2>Which route?</h2>
+        <figure>
+            <img class="cover width height" src="pictures/idt2-l1-35.jpg" alt="Protocols - Airport analogy." height="90%" style="padding-bottom: 10px;">
+            <figcaption class="copyright right" style="color: white">
+                Photo by <a href="https://www.pexels.com/photo/assorted-road-signage-440170/">Henk Mohabier</a>
+            </figcaption>
+        </figure>
+    </section>
+
+<!--
+#####
+Slide - IP Addresses are hierarchical
+#####
+-->
+    <section class="slide">
+        <h2 style="margin-bottom: -10px;">IP addresses have a hierarchy</h2>
+            <p>that makes it easier to route data around the Internet</p>
+        <figure>
+            <img class="cover" src="pictures/idt2-l1-34.png" alt="IP Addresses are hierarchical" height="90%">
+        </figure>        
+    </section>
+
+<!--
+#####
+Slide - Be prepared
+#####
+-->
+    <section class="slide">
+        <h2>Be prepared for Tutorial 1</h2>
+        <figure>
+            <img class="cover width height" src="pictures/idt2-l1-37.jpg" alt="Be prepared" height="90%" style="padding-bottom: 10px;">
+            <figcaption class="copyright right">
+                Photo by <a href="https://unsplash.com/@brett_jordan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brett Jordan</a> on <a href="https://unsplash.com/photos/brown-wooden-blocks-on-white-surface-OpBmvSt07gY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </figcaption>
+        </figure>
+    </section>
+
+ <!--
+#####
+Slide - To prepare
+#####
+-->   
+    <section class="slide">
+        <h2>To prepare for next week</h2>
+        <ul>
+            <li>Read the <em>Tutoral 1 text</em> in de Course book.</li>
+            <li><em>Readings</em> (compulsory and recommended).</li>
+            <li>Prepare answers to the <em>discussion questions</em>.</li>
+        </ul>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.js"></script>
+
+</body>
+</html>
